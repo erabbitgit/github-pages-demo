@@ -1,0 +1,14 @@
+# .idea 資料夾的通用忽略
+.idea/
+
+# 忽略 node_modules 資料夾
+node_modules/
+
+# 忽略 dist 資料夾（打包後的檔案）
+dist/
+
+# 忽略 log 檔案
+*.log
+
+# 忽略環境變數配置檔
+.env
