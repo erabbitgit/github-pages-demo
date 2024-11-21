@@ -8,7 +8,6 @@
     "lint": "vue-cli-service lint",
     "deploy": "yarn run build && git add ../docs/vue-project && git commit -m \"Deploy Vue project\"",
     "gh-deploy": "yarn run build && gh-pages -d ../docs/vue-project",
-    "serve-production": "yarn serve --mode production",
     "serve-deploy-preview": "npx serve ../docs/vue-project"
   },
   "dependencies": {
